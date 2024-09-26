@@ -43,7 +43,7 @@ importers:
         version: 14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-auth:
         specifier: ^4.24.7
-        version: 4.24.7(next@14.2.6(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.24.7(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -187,7 +187,7 @@ importers:
         version: 4.17.21
       next-auth:
         specifier: ^4.24.7
-        version: 4.24.7(next@14.2.6(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.24.7(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       nodemailer:
         specifier: ^6.9.13
         version: 6.9.13
@@ -229,8 +229,8 @@ importers:
         specifier: ^6.4.15
         version: 6.4.15
       '@types/pg':
-        specifier: ^8.11.6
-        version: 8.11.6
+        specifier: ^8.11.10
+        version: 8.11.10
       '@types/uuid':
         specifier: ^9.0.8
         version: 9.0.8
@@ -251,7 +251,7 @@ importers:
         version: 5.1.3(@types/eslint@8.56.12)(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5)
       kysely-codegen:
         specifier: ^0.11.0
-        version: 0.11.0(kysely@0.27.4)(pg@8.11.5)
+        version: 0.11.0(kysely@0.27.4)(pg@8.13.0)
       nodemon:
         specifier: ^3.1.3
         version: 3.1.3
@@ -572,7 +572,7 @@ importers:
         version: 14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-auth:
         specifier: ^4.24.7
-        version: 4.24.7(next@14.2.6(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.24.7(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-query-params:
         specifier: ^5.0.0
         version: 5.0.0(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(use-query-params@2.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
@@ -855,8 +855,8 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       pg:
-        specifier: ^8.11.5
-        version: 8.11.5
+        specifier: ^8.13.0
+        version: 8.13.0
       stripe:
         specifier: ^16.8.0
         version: 16.8.0
@@ -892,8 +892,8 @@ importers:
         specifier: ^20.11.19
         version: 20.11.29
       '@types/pg':
-        specifier: ^8.11.6
-        version: 8.11.6
+        specifier: ^8.11.10
+        version: 8.11.10
       '@types/uuid':
         specifier: ^9.0.8
         version: 9.0.8
@@ -914,7 +914,7 @@ importers:
         version: 5.1.3(@types/eslint@8.56.12)(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5)
       kysely-codegen:
         specifier: ^0.11.0
-        version: 0.11.0(kysely@0.27.4)(pg@8.11.5)
+        version: 0.11.0(kysely@0.27.4)(pg@8.13.0)
       msw:
         specifier: ^2.4.1
         version: 2.4.1(graphql@16.9.0)(typescript@5.4.5)
@@ -5032,8 +5032,8 @@ packages:
   '@types/pg-pool@2.0.4':
     resolution: {integrity: sha512-qZAvkv1K3QbmHHFYSNRYPkRjOWRLBYrL4B9c+wG0GSVGBw0NtJwPcgx/DSddeDJvRGMHCEQ4VMEVfuJ/0gZ3XQ==}
 
-  '@types/pg@8.11.6':
-    resolution: {integrity: sha512-/2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj+16Je5fUKv3lVdVzk/zn9TXOqf+avFCFIE0yQ==}
+  '@types/pg@8.11.10':
+    resolution: {integrity: sha512-LczQUW4dbOQzsH2RQ5qoeJ6qJPdrcM/DcMLoqWQkMLMsq83J5lAX3LXjdkWdpscFy67JSOWDnh7Ny/sPFykmkg==}
 
   '@types/pg@8.6.1':
     resolution: {integrity: sha512-1Kc4oAGzAl7uqUStZCDvaLFqZrW9qWSjXOmBfdgyBP5La7Us6Mg4GBvRlSoaZMhQF/zSj1C8CtKMBkoiT8eL8w==}
@@ -9374,8 +9374,8 @@ packages:
   pg-cloudflare@1.1.1:
     resolution: {integrity: sha512-xWPagP/4B6BgFO+EKz3JONXv3YDgvkbVrGw2mTo3D6tVDQRh1e7cqVGvyR3BE+eQgAvx1XhW/iEASj4/jCWl3Q==}
 
-  pg-connection-string@2.6.4:
-    resolution: {integrity: sha512-v+Z7W/0EO707aNMaAEfiGnGL9sxxumwLl2fJvCQtMn9Fxsg+lPpPkdcyBSv/KFgpGdYkMfn+EI1Or2EHjpgLCA==}
+  pg-connection-string@2.7.0:
+    resolution: {integrity: sha512-PI2W9mv53rXJQEOb8xNR8lH7Hr+EKa6oJa38zsK0S/ky2er16ios1wLKhZyxzD7jUReiWokc9WK5nxSnC7W1TA==}
 
   pg-int8@1.0.1:
     resolution: {integrity: sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==}
@@ -9385,13 +9385,13 @@ packages:
     resolution: {integrity: sha512-BM/Thnrw5jm2kKLE5uJkXqqExRUY/toLHda65XgFTBTFYZyopbKjBe29Ii3RbkvlsMoFwD+tHeGaCjjv0gHlyw==}
     engines: {node: '>=4'}
 
-  pg-pool@3.6.2:
-    resolution: {integrity: sha512-Htjbg8BlwXqSBQ9V8Vjtc+vzf/6fVUuak/3/XXKA9oxZprwW3IMDQTGHP+KDmVL7rtd+R1QjbnCFPuTHm3G4hg==}
+  pg-pool@3.7.0:
+    resolution: {integrity: sha512-ZOBQForurqh4zZWjrgSwwAtzJ7QiRX0ovFkZr2klsen3Nm0aoh33Ls0fzfv3imeH/nw/O27cjdz5kzYJfeGp/g==}
     peerDependencies:
       pg: '>=8.0'
 
-  pg-protocol@1.6.1:
-    resolution: {integrity: sha512-jPIlvgoD63hrEuihvIg+tJhoGjUsLPn6poJY9N5CnlPd91c2T18T/9zBtLxZSb1EhYxBRoZJtzScCaWlYLtktg==}
+  pg-protocol@1.7.0:
+    resolution: {integrity: sha512-hTK/mE36i8fDDhgDFjy6xNOG+LCorxLG3WO17tku+ij6sVHXh1jQUJ8hYAnRhNla4QVD2H8er/FOjc/+EgC6yQ==}
 
   pg-types@2.2.0:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
@@ -9401,8 +9401,8 @@ packages:
     resolution: {integrity: sha512-cRL3JpS3lKMGsKaWndugWQoLOCoP+Cic8oseVcbr0qhPzYD5DWXK+RZ9LY9wxRf7RQia4SCwQlXk0q6FCPrVng==}
     engines: {node: '>=10'}
 
-  pg@8.11.5:
-    resolution: {integrity: sha512-jqgNHSKL5cbDjFlHyYsCXmQDrfIX/3RsNwYqpd4N0Kt8niLuNoRNH+aazv6cOd43gPh9Y4DjQCtb+X0MH0Hvnw==}
+  pg@8.13.0:
+    resolution: {integrity: sha512-34wkUTh3SxTClfoHB3pQ7bIMvw9dpFU1audQQeZG837fmHfHpr14n/AELVDoOYVDW2h5RDWU78tFjkD+erSBsw==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -13507,7 +13507,7 @@ snapshots:
   '@next-auth/prisma-adapter@1.0.7(@prisma/client@5.17.0(prisma@5.13.0))(next-auth@4.24.7(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
     dependencies:
       '@prisma/client': 5.17.0(prisma@5.13.0)
-      next-auth: 4.24.7(next@14.2.6(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next-auth: 4.24.7(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
   '@next/env@14.2.6': {}
 
@@ -16721,7 +16721,7 @@ snapshots:
 
   '@types/ioredis@4.28.10':
     dependencies:
-      '@types/node': 20.10.5
+      '@types/node': 20.14.8
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -16836,18 +16836,18 @@ snapshots:
 
   '@types/pg-pool@2.0.4':
     dependencies:
-      '@types/pg': 8.6.1
+      '@types/pg': 8.11.10
 
-  '@types/pg@8.11.6':
+  '@types/pg@8.11.10':
     dependencies:
-      '@types/node': 20.12.11
-      pg-protocol: 1.6.1
+      '@types/node': 20.14.8
+      pg-protocol: 1.7.0
       pg-types: 4.0.2
 
   '@types/pg@8.6.1':
     dependencies:
       '@types/node': 20.14.8
-      pg-protocol: 1.6.1
+      pg-protocol: 1.7.0
       pg-types: 2.2.0
 
   '@types/prop-types@15.7.12': {}
@@ -17263,7 +17263,7 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 7.12.0(eslint@8.57.0)(typescript@5.4.5)
       eslint-config-prettier: 9.1.0(eslint@8.57.0)
-      eslint-import-resolver-alias: 1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))
+      eslint-import-resolver-alias: 1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0))
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint-plugin-import@2.29.1)(eslint@8.57.0)
       eslint-plugin-eslint-comments: 3.2.0(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
@@ -19000,7 +19000,7 @@ snapshots:
       eslint: 8.57.0
       eslint-plugin-turbo: 1.13.4(eslint@8.57.0)
 
-  eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)):
+  eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)):
     dependencies:
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.12.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
 
@@ -20860,7 +20860,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.10.5
+      '@types/node': 20.14.8
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -21041,7 +21041,7 @@ snapshots:
 
   kuler@2.0.0: {}
 
-  kysely-codegen@0.11.0(kysely@0.27.4)(pg@8.11.5):
+  kysely-codegen@0.11.0(kysely@0.27.4)(pg@8.13.0):
     dependencies:
       chalk: 4.1.2
       dotenv: 16.4.5
@@ -21050,7 +21050,7 @@ snapshots:
       micromatch: 4.0.8
       minimist: 1.2.8
     optionalDependencies:
-      pg: 8.11.5
+      pg: 8.13.0
 
   kysely@0.27.4: {}
 
@@ -21807,7 +21807,7 @@ snapshots:
     dependencies:
       type-fest: 2.19.0
 
-  next-auth@4.24.7(next@14.2.6(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-auth@4.24.7(next@14.2.6(@babel/core@7.24.3)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@6.9.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.5
       '@panva/hkdf': 1.1.1
@@ -22315,17 +22315,17 @@ snapshots:
   pg-cloudflare@1.1.1:
     optional: true
 
-  pg-connection-string@2.6.4: {}
+  pg-connection-string@2.7.0: {}
 
   pg-int8@1.0.1: {}
 
   pg-numeric@1.0.2: {}
 
-  pg-pool@3.6.2(pg@8.11.5):
+  pg-pool@3.7.0(pg@8.13.0):
     dependencies:
-      pg: 8.11.5
+      pg: 8.13.0
 
-  pg-protocol@1.6.1: {}
+  pg-protocol@1.7.0: {}
 
   pg-types@2.2.0:
     dependencies:
@@ -22345,11 +22345,11 @@ snapshots:
       postgres-interval: 3.0.0
       postgres-range: 1.1.4
 
-  pg@8.11.5:
+  pg@8.13.0:
     dependencies:
-      pg-connection-string: 2.6.4
-      pg-pool: 3.6.2(pg@8.11.5)
-      pg-protocol: 1.6.1
+      pg-connection-string: 2.7.0
+      pg-pool: 3.7.0(pg@8.13.0)
+      pg-protocol: 1.7.0
       pg-types: 2.2.0
       pgpass: 1.0.5
     optionalDependencies:
